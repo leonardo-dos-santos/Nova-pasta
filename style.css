@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(45, 153, 153);
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: gray;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  min-height: 500px;
+  min-width: 300px;
+}
+
+.grid-buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px
+}
+
+.span-2 {
+  grid-column: span 2;
+}
+
+.btn-red {
+  background-color: red;
+  color: white;
+}
+
+.btn-blue {
+  background-color: blue;
+  color: white;
+}
+
+.btn {
+  padding: 20px 30px;
+  border-radius: 5px;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+.screen {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  font-size: 2.5em;
+  font-weight: 900;
+  text-align: end;
+  min-height: 90px;
+  background-color: rgb(199, 198, 198);
+}
+
+.pastNumber {
+  height: 20px;
+  margin-bottom: 20px;
+}
+
+.currentNumber {
+  height: 30px;
+  font-size: 50px;
+}
